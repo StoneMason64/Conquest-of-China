@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1755261112084675416
+--- !u!1 &3892417199695823189
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,47 +8,47 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3400706612546740357}
-  - component: {fileID: 4409852993233296107}
-  - component: {fileID: 8623056769106835849}
-  - component: {fileID: 8805909405238495261}
-  - component: {fileID: 7675946123749925692}
+  - component: {fileID: 4016997703942031808}
+  - component: {fileID: 7221339337283410727}
+  - component: {fileID: 4563682523935695728}
+  - component: {fileID: 2629860596877266892}
+  - component: {fileID: 7585065110410476860}
   m_Layer: 0
-  m_Name: Chinese
+  m_Name: Demo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3400706612546740357
+--- !u!4 &4016997703942031808
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1755261112084675416}
-  m_LocalRotation: {x: -1, y: -0, z: -0, w: 0.00000016391276}
-  m_LocalPosition: {x: 7.93, y: 3.25416, z: 4.207404}
+  m_GameObject: {fileID: 3892417199695823189}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.465832, y: 3.25416, z: 4.207404}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -180, y: 0, z: 0}
---- !u!33 &4409852993233296107
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7221339337283410727
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1755261112084675416}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &8623056769106835849
+  m_GameObject: {fileID: 3892417199695823189}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &4563682523935695728
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1755261112084675416}
+  m_GameObject: {fileID: 3892417199695823189}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 70a6b8a5f71d4c34a9cc94cd6e8a3c85, type: 2}
+  - {fileID: 2100000, guid: e7e195ce6102ef146a6c3d0ece27ae7f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -83,39 +83,38 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &8805909405238495261
-CapsuleCollider:
+--- !u!65 &2629860596877266892
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1755261112084675416}
+  m_GameObject: {fileID: 3892417199695823189}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &7675946123749925692
+--- !u!114 &7585065110410476860
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1755261112084675416}
+  m_GameObject: {fileID: 3892417199695823189}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f69e91a0d129284da793c811dc381a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cell: {fileID: 0}
-  HitPoints: 10
-  AttackRange: 1
-  AttackFactor: 5
-  DefenceFactor: 1
-  movementPoints: 5
-  MovementAnimationSpeed: 10
+  HitPoints: 0
+  AttackRange: 0
+  AttackFactor: 0
+  DefenceFactor: 0
+  movementPoints: 0
+  MovementAnimationSpeed: 0
   actionPoints: 1
-  PlayerNumber: 1
-  LeadingColor: {r: 0, g: 0.122285366, b: 1, a: 0}
+  PlayerNumber: 0
+  LeadingColor: {r: 0, g: 0, b: 0, a: 0}
