@@ -118,4 +118,4 @@ MonoBehaviour:
   MovementAnimationSpeed: 10
   actionPoints: 1
   PlayerNumber: 1
-  LeadingColor: {r: 0, g: 0.122285366, b: 1, a: 0}
+  LeadingColor: {r: 0, g: 0.0755755, b: 0.764151, a: 0}

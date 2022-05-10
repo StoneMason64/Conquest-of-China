@@ -18,7 +18,7 @@ public class ChinaUnitDemo : Unit
 
     public override void MarkAsReachableEnemy()
     {
-        GetComponent<Renderer>().material.color = LeadingColor + Color.red;
+        GetComponent<Renderer>().material.color = LeadingColor + Color.magenta;
     }
 
     public override void MarkAsSelected()
