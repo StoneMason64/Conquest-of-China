@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44824535, g: 0.49827206, b: 0.5755818, a: 1}
+  m_IndirectSpecularColor: {r: 0.4482448, g: 0.4982714, b: 0.575581, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2578,6 +2578,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GoundChina Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
+        type: 3}
+      propertyPath: IsTaken
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
         type: 3}
@@ -9354,6 +9359,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
         type: 3}
+      propertyPath: IsTaken
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
+        type: 3}
       propertyPath: _offsetCoord.x
       value: 12
       objectReference: {fileID: 0}
@@ -11044,6 +11054,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
         type: 3}
+      propertyPath: IsTaken
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
+        type: 3}
       propertyPath: _offsetCoord.x
       value: 8
       objectReference: {fileID: 0}
@@ -11546,6 +11561,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GoundChina Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
+        type: 3}
+      propertyPath: IsTaken
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
         type: 3}
@@ -16673,6 +16693,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
         type: 3}
+      propertyPath: IsTaken
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
+        type: 3}
       propertyPath: _offsetCoord.x
       value: 11
       objectReference: {fileID: 0}
@@ -19077,6 +19102,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
         type: 3}
+      propertyPath: IsTaken
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
+        type: 3}
       propertyPath: _offsetCoord.x
       value: 7
       objectReference: {fileID: 0}
@@ -19914,6 +19944,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GoundChina Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
+        type: 3}
+      propertyPath: IsTaken
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
         type: 3}
@@ -30097,6 +30132,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
         type: 3}
+      propertyPath: IsTaken
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
+        type: 3}
       propertyPath: _offsetCoord.x
       value: 10
       objectReference: {fileID: 0}
@@ -31326,6 +31366,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
         type: 3}
+      propertyPath: IsTaken
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
+        type: 3}
       propertyPath: _offsetCoord.x
       value: 6
       objectReference: {fileID: 0}
@@ -31658,6 +31703,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GoundChina Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
+        type: 3}
+      propertyPath: IsTaken
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
         type: 3}
@@ -34526,6 +34576,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
         type: 3}
+      propertyPath: IsTaken
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
+        type: 3}
       propertyPath: _offsetCoord.x
       value: 4
       objectReference: {fileID: 0}
@@ -36473,6 +36528,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: GoundChina Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
+        type: 3}
+      propertyPath: IsTaken
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2811241704217527136, guid: 76ca5d342ec96c94187cb5ca38d97f42,
         type: 3}
