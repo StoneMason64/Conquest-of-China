@@ -70,7 +70,17 @@ PrefabInstance:
     - target: {fileID: 6121728660755432214, guid: f612076fbfe069b4e895b30497963544,
         type: 3}
       propertyPath: m_Name
-      value: GoundChina
+      value: GoundChina Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614740123362735282, guid: f612076fbfe069b4e895b30497963544,
+        type: 3}
+      propertyPath: IsTaken
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974826769366229169, guid: f612076fbfe069b4e895b30497963544,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f612076fbfe069b4e895b30497963544, type: 3}

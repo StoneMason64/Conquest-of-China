@@ -114,9 +114,8 @@ MonoBehaviour:
   AttackRange: 1
   AttackFactor: 5
   DefenceFactor: 1
-  movementPoints: 5
+  movementPoints: 10
   MovementAnimationSpeed: 10
   actionPoints: 1
   PlayerNumber: 1
-  PlayerColor: {r: 0, g: 0.08817577, b: 1, a: 0}
-  UnitName: Chinese Cavalry
+  LeadingColor: {r: 0, g: 0, b: 0, a: 0}

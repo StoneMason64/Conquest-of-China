@@ -110,12 +110,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cell: {fileID: 0}
   HitPoints: 10
-  AttackRange: 1
+  AttackRange: 4
   AttackFactor: 5
   DefenceFactor: 1
   movementPoints: 5
   MovementAnimationSpeed: 10
   actionPoints: 1
   PlayerNumber: 0
-  PlayerColor: {r: 1, g: 0, b: 0, a: 0}
-  UnitName: Mongol Archer
+  LeadingColor: {r: 0, g: 0, b: 0, a: 0}

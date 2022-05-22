@@ -2,7 +2,7 @@ using TbsFramework.Units;
 
 namespace TbsFramework.Example1
 {
-    public class COCArcher : MyUnit
+    public class COCArcher : ChinaUnitDemo
     {
         protected override int Defend(Unit other, int damage)
         {

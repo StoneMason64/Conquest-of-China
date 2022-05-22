@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cell: {fileID: 0}
-  HitPoints: 10
+  HitPoints: 15
   AttackRange: 1
   AttackFactor: 5
   DefenceFactor: 1
@@ -117,5 +117,4 @@ MonoBehaviour:
   MovementAnimationSpeed: 10
   actionPoints: 1
   PlayerNumber: 1
-  PlayerColor: {r: 0, g: 0.11255966, b: 0.8490566, a: 0}
-  UnitName: Chinese Warrior
+  LeadingColor: {r: 0, g: 0, b: 0, a: 0}

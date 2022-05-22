@@ -2,8 +2,7 @@ using TbsFramework.Units;
 
 namespace TbsFramework.Example1
 {
-
-    public class COCWarrior : MyUnit
+    public class COCWarrior : ChinaUnitDemo
     {
         protected override int Defend(Unit other, int damage)
         {
