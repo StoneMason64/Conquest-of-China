@@ -29,7 +29,7 @@ namespace TbsFramework.Tutorial
 
         public override void UnMark()
         {
-            GetComponent<Renderer>().material.color = Color.red;
+            GetComponent<Renderer>().material.color = Color.white;
         }
     }
 }
