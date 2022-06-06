@@ -1,5 +1,9 @@
+using System.Collections;
+using System.Collections.Generic;
+using TbsFramework.Cells;
 using TbsFramework.Units;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ChinaUnitDemo : Unit
     {
@@ -47,6 +51,20 @@ public class ChinaUnitDemo : Unit
     {
     }
 
+    private void UpdateHpBar()
+    {
+        if (GetComponentInChildren<Image>() != null)
+        {
+            GetComponentInChildren<Image>().transform.localScale = new Vector3((float)((float)HitPoints / (float)TotalHitPoints), 1, 1);
+            GetComponentInChildren<Image>().color = Color.Lerp(Color.red, Color.green,
+                (float)((float)HitPoints / (float)TotalHitPoints));
+        }
+    }
+
+    protected override void DefenceActionPerformed()
+    {
+        UpdateHpBar();
+    }
 }
 
 
